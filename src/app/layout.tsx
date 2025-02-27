@@ -27,7 +27,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+      <header>
+        <h1>Clints nextjs</h1>
+      </header>
         {children}
+      <footer></footer>
       </body>
     </html>
   );
