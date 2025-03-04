@@ -31,7 +31,7 @@ export default function RootLayout({
         <h1>Clints nextjs</h1>
       </header>
         {children}
-      <footer></footer>
+      <footer className="text-center">&copy; clints ltd</footer>
       </body>
     </html>
   );
